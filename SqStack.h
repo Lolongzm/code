@@ -1,22 +1,17 @@
-#include<stdio.h>
+Ôªø#include<stdio.h>
 #include<stdlib.h>
-#include<errno.h>
-
 #define MAXSIZE 100
 
+typedef int ElemType;
 
-typedef struct{
-	struct SElemType *base; //’ªµ◊÷∏’Î
-	struct SElemType *top; //’ª∂•÷∏’Î
-	int stacksize; //’ªø…”√◊Ó¥Û»›¡ø
-}SqStack; 
-
-void InitStack(SqStack S);
-int StackEmpty(SqStack S);
-int StackLenght(SqStack S);
-void ClearStack(SqStack S);
-void DestroyStack(SqStack S);
-void PushStack(SqStack S, struct SElemType e);
-struct SElemType Pop(SqStack S);
-
-
+typedef struct Stack
+{
+	ElemType data[MAXSIZE];
+	int base;    //Ê†àÂ∫ï
+	int top;       //Ê†àÈ°∂
+	int length;    //Ê†àÁöÑÂ§ßÂ∞è
+}SqStack, *pStack;
+void InitStack(pStack stack);
+int Push(pStack stack, int num);
+int Pop(pStack stack, int num);
+void StackEmpty(pStack stack);
