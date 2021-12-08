@@ -1,0 +1,12 @@
+﻿生成启动时间为 2021/12/8 15:58:01。
+     1>项目“I:\project\test_12_08\test_12_08\test_12_08.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         I:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt CreateBiTree.c
+         CreateBiTree.c
+     1>i:\project\test_12_08\test_12_08\createbitree.c(15): warning C4013: “strerror”未定义；假设外部返回 int
+     1>i:\project\test_12_08\test_12_08\createbitree.c(20): error C2440: “=”: 无法从“char”转换为“TElemType”
+     1>已完成生成项目“I:\project\test_12_08\test_12_08\test_12_08.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.23
