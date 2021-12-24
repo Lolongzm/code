@@ -90,3 +90,37 @@
 //}
 
 
+//
+//struct str{
+//	int len;
+//	char s[0];
+//};
+//
+//struct foo {
+//	struct str *a;
+//};
+//
+//int main(int argc, char** argv) {
+//	struct foo f = { 0 };
+//	printf("%x\n", f.a->s);
+//	//if (f.a->s) {
+//	//	printf(f.a->s);
+//	//}
+//	return 0;
+//}
+
+struct test{
+	int i;
+	short c;
+	char *p;
+	char s[10];
+};
+
+int main(){
+	struct test *pt = NULL;
+	printf("&s = %x\n", pt->s); //等价于 printf("%x\n", &(pt->s) );
+	printf("&i = %x\n", &pt->i); //因为操作符优先级，我没有写成&(pt->i)
+	printf("&c = %x\n", &pt->c);
+	printf("&p = %x\n", &pt->p);
+	return 0;
+}

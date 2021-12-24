@@ -1,0 +1,10 @@
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=0
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=1
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=2
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=3
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=4
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=5
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=6
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=7
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=8
+file:c:\users\administrator\documents\visual studio 2013\projects\test_10_28\test_10_28\2021-10-28 test.c line:20 time:18:46:48 data:Oct 28 2021 i=9
